@@ -1,0 +1,47 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Practical 22</title>
+</head>
+<style>
+    body{
+        min-height: 100vh;
+        overflow-y: hidden;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    form{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        gap: .4rem;
+    }
+    input{
+        padding: 10px;
+        width: 30rem;
+        font-size: 1rem;
+    }
+    input[type="submit"]{
+        margin-top: 10px;
+    }
+</style>
+<body>
+    <h1><u>Student Information</u></h1>
+    <div class="container">
+        <form action="Practical22.jsp">
+            <input type="text" name="name" placeholder="Enter Your Name">
+            <input type="number" name="sub1" placeholder="Subject 1's Marks">
+            <input type="number" name="sub2" placeholder="Subject 2's Marks">
+            <input type="number" name="sub3" placeholder="Subject 3's Marks">
+            <input type="number" name="sub4" placeholder="Subject 4's Marks">
+            <input type="number" name="sub5" placeholder="Subject 5's Marks">
+            <input type="submit" value="Proceed">
+        </form>
+    </div>
+</body>
+</html>

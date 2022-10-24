@@ -1,0 +1,4 @@
+#Tomcat publish data
+#Thu Mar 03 23:27:19 IST 2022
+org.eclipse.jst.jee.server\:JSPDemo=D\:\\apache-tomcat-8.5.75\\wtpwebapps\\JSPDemo
+org.eclipse.jst.jee.server\:demo=D\:\\apache-tomcat-8.5.75\\wtpwebapps\\demo

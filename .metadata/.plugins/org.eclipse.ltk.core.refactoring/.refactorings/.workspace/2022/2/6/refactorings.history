@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Delete resource &apos;javaRefresher&apos;" deleteContents="true" description="Delete resource &apos;javaRefresher&apos;" element1="/javaRefresher" flags="7" id="org.eclipse.ltk.core.refactoring.delete.resources" resources="1" stamp="1643911031749"/>
+</session>
